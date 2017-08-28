@@ -1,0 +1,68 @@
+html,
+body {
+  background-image: url(bgimg.jpg);
+  background-position: -300px -200px;
+  background-repeat: no-repeat;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin: auto;
+}
+
+form {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#instructions {
+  text-align: center;
+}
+
+#searchField {
+  height: 20px;
+  width: 400px;
+  border: #cccccc 1px solid;
+  border-radius: 5px;
+}
+
+#randomButton {
+  width: 150px;
+  color: black;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding:2px 8px;
+  background:
+    linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+}
+
+#results {
+  background-color: white;
+  background-image: none;
+}
+
+.container {
+
+  display: block;
+  margin: auto;
+  width: 960px;
+}

@@ -4,17 +4,20 @@
   <title>Wikipedia Search</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
   <div class="container">
-    <h1>Wikipedia Search</h1>
+    <h1>Search Wikipedia</h1>
+    <p id="instructions">Type your search into the field below.  Select your desired article from the list below.</p>
     <form>
-      <input id="searchField">
-      <button id="searchButton">Search</button>
-    </form>
+      <input type="text" id="searchField">
+      <a id="randomButton" href="https://en.wikipedia.org/wiki/Special:Random"
+        target="blank">Random Article</a>
   <div id="results" class="container">
 
   </div>
